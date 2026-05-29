@@ -211,4 +211,4 @@ Found a skill that needs improvement? Want to add a new skill?
 
 ---
 
-**Need help?** Check the [FAQ](../docs/users/faq.md) or open an issue on GitHub!
+**Need help?** Check the [FAQ](docs/users/faq.md) or open an issue on GitHub!
