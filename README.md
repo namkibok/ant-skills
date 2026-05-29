@@ -4,10 +4,10 @@ Shared skill library for [namkibok/harness_ant](https://github.com/namkibok/harn
 
 Harness Phase 4 picks domain-relevant skills and installs only those into the target project's `.agent/skills/` (via `install-skills.ps1` + `.harness/skills.lock.yaml`). **Do not copy the full catalog** into `~/.gemini/antigravity/skills/`.
 
-| Use | Path / command |
-|-----|----------------|
-| **Local dev (default)** | `E:\workspace\skills\antigravity` → set `HARNESS_SKILL_CATALOG` |
-| **Team / CI (sparse)** | `git clone --sparse https://github.com/namkibok/ant-skills.git` or harness `install-skills.ps1` |
+| Use | Command |
+|-----|---------|
+| **Team install (default)** | [harness_ant](https://github.com/namkibok/harness_ant) → `install-skills.ps1` (Git sparse, lock IDs only) |
+| **Browse / edit catalog** | `git clone https://github.com/namkibok/ant-skills.git` |
 
 ---
 
